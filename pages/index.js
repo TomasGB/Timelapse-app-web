@@ -53,15 +53,11 @@ export default function Home() {
                             alt="user-interface"
                             width="400px"
                             height="370px"
-                            style={{
-                                borderRadius: "5px",
-                                maxWidth: "100%",
-                                maxHeight: "100%",
-                            }}
+                            className={styles.GUI}
                         />
                     </div>
                     <h2 className={styles.subtitle}>
-                        No need of a professional camera
+                        No need of professional cameras
                     </h2>
                     <p className={styles.text}>
                         This application is designed to be used with webcams so
@@ -71,8 +67,7 @@ export default function Home() {
                     <div
                         style={{
                             width: "100%",
-                            height: "300px",
-                            marginBottom: "100px",
+                            height: "fit-content",
                         }}>
                         <ul className={styles.list}>
                             <li>
@@ -94,6 +89,31 @@ export default function Home() {
                                 />
                             </li>
                         </ul>
+                    </div>
+                    <h2 className={styles.subtitle}>Demos</h2>
+                    <div
+                        style={{
+                            display: "flex",
+                            flexDirection: "row",
+                            flexWrap: "wrap",
+                            justifyContent: "space-evenly",
+                            marginTop: "70px",
+                            marginBottom: "100px",
+                        }}>
+                        <img
+                            src="imgs/timelapse_github.gif"
+                            alt="timelapse-demo-1"
+                            width="400px"
+                            height="250px"
+                            className={styles.demos}
+                        />
+                        <img
+                            src="imgs/timelapse_github3.gif"
+                            alt="timelapse-demo-1"
+                            width="400px"
+                            height="250px"
+                            className={styles.demos}
+                        />
                     </div>
                 </section>
                 <DownloadButton />
