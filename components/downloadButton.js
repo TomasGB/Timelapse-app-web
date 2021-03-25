@@ -1,17 +1,22 @@
+import styles from "../styles/DownloadBtn.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 const DownloadButton = () => {
     return (
-        <div
-            style={{
-                padding: "10px 25px",
-                backgroundColor: "#e97c00",
-                borderRadius: "10px",
-                marginBottom: "15px",
-            }}>
+        <div className={styles.DownloadBtn}>
+            <FontAwesomeIcon icon={faDownload} className={styles.icon} />
             <a
                 href="Proyecto Final PCI-Tomas Gomez Bermudez-Primer Cuatrimestre 2020 (correcion).rar"
                 target="_blank"
                 download>
-                Download here
+                <p
+                    style={{
+                        display: "flex",
+                        fontSize: "16px",
+                        fontWeight: "500",
+                    }}>
+                    Download here
+                </p>
             </a>
         </div>
     );

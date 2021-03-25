@@ -1,0 +1,22 @@
+.DownloadBtn{
+  padding: 5px 25px;
+  background-Color: #e97c00;
+  border-Radius: 10px;
+  margin-Bottom: 15px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.438);
+  display:flex;
+  flex-direction: row;
+}
+.DownloadBtn:hover{
+  padding: 5px 25px;
+  background-Color: #ff8a04;
+  border-Radius: 10px;
+  margin-Bottom: 15px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.438);
+  cursor:pointer;
+}
+.icon{
+  width: 25px;
+  margin-right: 15px;
+  align-items:baseline;
+}

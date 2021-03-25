@@ -1,6 +1,12 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import DownloadButton from "../components/downloadButton";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faCamera,
+    faMobileAlt,
+    faVideo,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
     return (
@@ -8,6 +14,10 @@ export default function Home() {
             <Head>
                 <title>Automatic Timelapse Processor</title>
                 <link rel="icon" href="/favicon.ico" />
+                <meta
+                    name="viewport"
+                    content="width=device-width,
+                initial-scale=1"></meta>
             </Head>
 
             <main className={styles.main}>
@@ -15,6 +25,14 @@ export default function Home() {
                     <h1 className={styles.title}>
                         Automatic Timelapse Processor
                     </h1>
+                    <div className={styles.image}>
+                        <img
+                            src="timelapseicono.png"
+                            alt="timelapse-app-icon"
+                            width="200"
+                            height="200"
+                        />
+                    </div>
                     <p className={styles.description}>
                         This Automatic Timelapse Processor is able to completely
                         automate the process of making a timelapse, that
@@ -27,17 +45,18 @@ export default function Home() {
                 <section className={styles.section}>
                     <h2 className={styles.subtitle}>User Interface</h2>
                     <p className={styles.text}>
-                        With an intuitive user interface to facilitate user
-                        experience
+                        Intuitive user interface to facilitate user experience
                     </p>
                     <div className={styles.image}>
                         <img
                             src="imgs/timelapseUI.gif"
                             alt="user-interface"
-                            width="400"
-                            height="400"
+                            width="400px"
+                            height="370px"
                             style={{
                                 borderRadius: "5px",
+                                maxWidth: "100%",
+                                maxHeight: "100%",
                             }}
                         />
                     </div>
@@ -46,18 +65,35 @@ export default function Home() {
                     </h2>
                     <p className={styles.text}>
                         This application is designed to be used with webcams so
-                        you can use whatever device you have,<br></br> of course
-                        if you have a professional camera you can use it as a
-                        webcam as well.
+                        you can use whatever device you have, so if you have a
+                        professional camera you can use it as a webcam as well.
                     </p>
                     <div
                         style={{
                             width: "100%",
                             height: "300px",
-                            backgroundColor: "red",
-                            marginBottom: "50px",
+                            marginBottom: "100px",
                         }}>
-                        cameras icons
+                        <ul className={styles.list}>
+                            <li>
+                                <FontAwesomeIcon
+                                    icon={faCamera}
+                                    className={styles.icon}
+                                />
+                            </li>
+                            <li>
+                                <FontAwesomeIcon
+                                    icon={faMobileAlt}
+                                    className={styles.icon}
+                                />
+                            </li>
+                            <li>
+                                <FontAwesomeIcon
+                                    icon={faVideo}
+                                    className={styles.icon}
+                                />
+                            </li>
+                        </ul>
                     </div>
                 </section>
                 <DownloadButton />
