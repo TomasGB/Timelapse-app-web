@@ -82,6 +82,13 @@
   align-items: baseline;
   margin:25px;
 }
+.iconFooter {
+  color:#383838;
+  width: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
 .demos{
   border-Radius: 5px;
   max-Width: 100%;

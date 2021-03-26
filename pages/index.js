@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import DownloadButton from "../components/downloadButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -6,25 +7,36 @@ import {
     faCamera,
     faMobileAlt,
     faVideo,
+    faCheckCircle,
+    faCode,
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Automatic Timelapse Processor</title>
+                <title>Timelapsing!</title>
                 <link rel="icon" href="/favicon.ico" />
+                <meta charset="UTF-8" />
+                <meta
+                    name="description"
+                    content="Automatic timelapse processor app"
+                />
+                <meta
+                    name="keywords"
+                    content="Timelapse, Automatic, App, Application, Tomas Gomez Bermudez"
+                />
+                <meta name="author" content="Tomas Gomez Bermudez" />
                 <meta
                     name="viewport"
                     content="width=device-width,
-                initial-scale=1"></meta>
+                initial-scale=1"
+                />
             </Head>
 
             <main className={styles.main}>
                 <section>
-                    <h1 className={styles.title}>
-                        Automatic Timelapse Processor
-                    </h1>
+                    <h1 className={styles.title}>Timelapsing!</h1>
                     <div className={styles.image}>
                         <img
                             src="timelapseicono.png"
@@ -34,7 +46,7 @@ export default function Home() {
                         />
                     </div>
                     <p className={styles.description}>
-                        This Automatic Timelapse Processor is able to completely
+                        An Automatic Timelapse Processor able to completely
                         automate the process of making a timelapse, that
                         includes taking the photos, apply gamma correction and
                         histogram equalization to improve the quality of the
@@ -45,7 +57,7 @@ export default function Home() {
                 <section className={styles.section}>
                     <h2 className={styles.subtitle}>User Interface</h2>
                     <p className={styles.text}>
-                        Intuitive user interface to facilitate user experience
+                        Intuitive user interface to facilitate user experience.
                     </p>
                     <div className={styles.image}>
                         <img
@@ -90,6 +102,20 @@ export default function Home() {
                             </li>
                         </ul>
                     </div>
+                    <h2 className={styles.subtitle}>Ready to use</h2>
+                    <p className={styles.text}>
+                        No installation needed, download it and start using it.
+                    </p>
+                    <div
+                        style={{
+                            display: "flex",
+                            justifyContent: "center",
+                        }}>
+                        <FontAwesomeIcon
+                            icon={faCheckCircle}
+                            className={styles.icon}
+                        />
+                    </div>
                     <h2 className={styles.subtitle}>Demos</h2>
                     <div
                         style={{
@@ -118,8 +144,31 @@ export default function Home() {
                 </section>
                 <DownloadButton />
             </main>
-
-            <footer className={styles.footer}></footer>
+            <footer className={styles.footer}>
+                <span
+                    style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        justifyContent: "center",
+                        alignItems: "center",
+                    }}>
+                    <FontAwesomeIcon
+                        icon={faCode}
+                        className={styles.iconFooter}
+                    />
+                    <p>
+                        Developed by{" "}
+                        <Link href="https://github.com/TomasGB">
+                            <a
+                                style={{ fontWeight: "500" }}
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Tomas Gomez Bermudez
+                            </a>
+                        </Link>
+                    </p>
+                </span>
+            </footer>
         </div>
     );
 }
