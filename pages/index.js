@@ -10,6 +10,7 @@ import {
     faCheckCircle,
     faCode,
 } from "@fortawesome/free-solid-svg-icons";
+import { faPaypal } from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
     return (
@@ -17,6 +18,7 @@ export default function Home() {
             <Head>
                 <title>Timelapsing!</title>
                 <link rel="icon" href="/favicon.ico" />
+                <meta name="theme-color" content="#f3e8db" />
                 <meta charset="UTF-8" />
                 <meta
                     name="description"
@@ -46,7 +48,7 @@ export default function Home() {
                         />
                     </div>
                     <p className={styles.description}>
-                        An Automatic Timelapse Processor able to completely
+                        An automatic timelapse processor able to completely
                         automate the process of making a timelapse, that
                         includes taking the photos, apply gamma correction and
                         histogram equalization to improve the quality of the
@@ -115,6 +117,78 @@ export default function Home() {
                             icon={faCheckCircle}
                             className={styles.icon}
                         />
+                    </div>
+                    <h2 className={styles.subtitle}>Support the project</h2>
+                    <p className={styles.text}>
+                        If you like the app and want to help to keep improving
+                        it, you can make a donation through PayPal.
+                    </p>
+                    <div
+                        style={{
+                            display: "flex",
+                            flexDirection: "column",
+                            justifyContent: "center",
+                            alignSelf: "center",
+                        }}>
+                        <div
+                            style={{
+                                display: "flex",
+                                justifyContent: "center",
+                                marginBottom: "50px",
+                            }}>
+                            <FontAwesomeIcon
+                                icon={faPaypal}
+                                className={styles.icon}
+                            />
+                        </div>
+                        <div
+                            style={{
+                                display: "flex",
+                                justifyContent: "center",
+                            }}>
+                            <div className={styles.Btn}>
+                                <a
+                                    href="https://www.paypal.com/donate?hosted_button_id=8AF6RDATNJDZU"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    <p
+                                        style={{
+                                            display: "flex",
+                                            fontWeight: "500",
+                                        }}>
+                                        Donate
+                                    </p>
+                                </a>
+                            </div>
+                            {/*<form
+                                style={{
+                                    marginTop: "25px",
+                                }}
+                                action="https://www.paypal.com/donate"
+                                method="post"
+                                target="_top">
+                                <input
+                                    type="hidden"
+                                    name="hosted_button_id"
+                                    value="8AF6RDATNJDZU"
+                                />
+                                <input
+                                    type="image"
+                                    src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+                                    border="0"
+                                    name="submit"
+                                    title="PayPal - The safer, easier way to pay online!"
+                                    alt="Donate with PayPal button"
+                                />
+                                <img
+                                    alt=""
+                                    border="0"
+                                    src="https://www.paypal.com/en_AR/i/scr/pixel.gif"
+                                    width="1"
+                                    height="1"
+                                />
+                            </form>*/}
+                        </div>
                     </div>
                     <h2 className={styles.subtitle}>Demos</h2>
                     <div
