@@ -89,6 +89,25 @@
   align-items: center;
   margin-right: 10px;
 }
+.Btn{
+  padding: 0px 35px;
+  background-Color: #e97c00;
+  border-Radius: 10px;
+  font-size: 1.1rem;
+  margin-Bottom: 15px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.438);
+  display:flex;
+  flex-direction: row;
+}
+.Btn:hover{
+  padding: 0px 35px;
+  background-Color: #ff8a04;
+  border-Radius: 10px;
+  font-size: 1.1rem;
+  margin-Bottom: 15px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.438);
+  cursor:pointer;
+}
 .demos{
   border-Radius: 5px;
   max-Width: 100%;
@@ -104,7 +123,7 @@
   align-items: center;
 }
 
-@media (max-width:425px){
+@media (max-width:435px){
 .title{
   font-size: 2.5rem;
   text-align: center;
@@ -150,6 +169,25 @@
   display:flex;
   align-items: baseline;
   margin:5px;
+}
+.Btn{
+  padding: 0px 35px;
+  background-Color: #e97c00;
+  border-Radius: 10px;
+  font-size: 1rem;
+  margin-Bottom: 15px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.438);
+  display:flex;
+  flex-direction: row;
+}
+.Btn:hover{
+  padding: 0px 35px;
+  background-Color: #ff8a04;
+  border-Radius: 10px;
+  font-size: 1rem;
+  margin-Bottom: 15px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.438);
+  cursor:pointer;
 }
 .GUI{
   width:90%;
