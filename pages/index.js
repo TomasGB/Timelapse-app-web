@@ -48,10 +48,10 @@ export default function Home() {
                         />
                     </div>
                     <p className={styles.description}>
-                        An automatic timelapse processor able to completely
-                        automate the process of making a timelapse, that
-                        includes taking the photos, apply gamma correction and
-                        histogram equalization to improve the quality of the
+                        Timelapsing! is an automatic timelapse processor able to
+                        completely automate the process of making a timelapse,
+                        that includes taking the photos, apply gamma correction
+                        and histogram equalization to improve the quality of the
                         photos and finally export the timelapse as an mp4 file
                         with processing and another without.
                     </p>

@@ -2,16 +2,17 @@ import styles from "../styles/DownloadBtn.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 const DownloadButton = () => {
+    const CurrentVersion = "1.0.0";
     return (
         <div className={styles.DownloadBtn}>
             <FontAwesomeIcon icon={faDownload} className={styles.icon} />
-            <a href="#" target="_blank" download>
+            <a href="timelapsing v1.0.0.rar" target="_blank" download>
                 <p
                     style={{
                         display: "flex",
                         fontWeight: "500",
                     }}>
-                    Download
+                    Download v{CurrentVersion}
                 </p>
             </a>
         </div>

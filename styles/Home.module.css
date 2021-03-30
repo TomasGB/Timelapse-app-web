@@ -163,6 +163,11 @@
   margin-top: 0px;
   margin-left: -10px;
 }
+.image img{
+  text-align:center;
+  width: 165px;
+  height:165px;
+}
 .icon {
   color:#383838;
   width: 50px;
