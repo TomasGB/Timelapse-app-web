@@ -1,4 +1,31 @@
-.DownloadBtn{
+@media (max-width:2560px){
+  .DownloadBtn{
+  padding: 0px 35px;
+  background-Color: #e97c00;
+  border-Radius: 10px;
+  font-size: 2rem;
+  margin-Bottom: 25px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.438);
+  display:flex;
+  flex-direction: row;
+}
+.DownloadBtn:hover{
+  padding: 0px 35px;
+  background-Color: #ff8a04;
+  border-Radius: 10px;
+  font-size: 2rem;
+  margin-Bottom: 25px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.438);
+  cursor:pointer;
+}
+.icon{
+  width: 45px;
+  margin-right: 25px;
+  align-items:baseline;
+}
+}
+@media (max-width:1440px){
+  .DownloadBtn{
   padding: 0px 35px;
   background-Color: #e97c00;
   border-Radius: 10px;
@@ -22,6 +49,7 @@
   margin-right: 15px;
   align-items:baseline;
 }
+}
 
 @media (max-width: 435px){
   .DownloadBtn{
@@ -42,5 +70,31 @@
   margin-Bottom: 15px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.438);
   cursor:pointer;
+}
+}
+@media (min-width:2561px){
+  .DownloadBtn{
+  padding: 0px 35px;
+  background-Color: #e97c00;
+  border-Radius: 10px;
+  font-size: 2rem;
+  margin-Bottom: 25px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.438);
+  display:flex;
+  flex-direction: row;
+}
+.DownloadBtn:hover{
+  padding: 0px 35px;
+  background-Color: #ff8a04;
+  border-Radius: 10px;
+  font-size: 2rem;
+  margin-Bottom: 25px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.438);
+  cursor:pointer;
+}
+.icon{
+  width: 45px;
+  margin-right: 25px;
+  align-items:baseline;
 }
 }

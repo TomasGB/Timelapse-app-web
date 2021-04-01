@@ -19,7 +19,7 @@ export default function Home() {
                 <title>Timelapsing!</title>
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="theme-color" content="#f3e8db" />
-                <meta charset="UTF-8" />
+                <meta charSet="UTF-8" />
                 <meta
                     name="description"
                     content="Automatic timelapse processor app"
@@ -61,13 +61,12 @@ export default function Home() {
                     <p className={styles.text}>
                         Intuitive user interface to facilitate user experience.
                     </p>
-                    <div className={styles.image}>
+                    <div className={styles.UI}>
                         <img
                             src="imgs/timelapseUI.gif"
                             alt="user-interface"
-                            width="400px"
-                            height="370px"
-                            className={styles.GUI}
+                            width="250px"
+                            height="380px"
                         />
                     </div>
                     <h2 className={styles.subtitle}>
@@ -160,34 +159,6 @@ export default function Home() {
                                     </p>
                                 </a>
                             </div>
-                            {/*<form
-                                style={{
-                                    marginTop: "25px",
-                                }}
-                                action="https://www.paypal.com/donate"
-                                method="post"
-                                target="_top">
-                                <input
-                                    type="hidden"
-                                    name="hosted_button_id"
-                                    value="8AF6RDATNJDZU"
-                                />
-                                <input
-                                    type="image"
-                                    src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
-                                    border="0"
-                                    name="submit"
-                                    title="PayPal - The safer, easier way to pay online!"
-                                    alt="Donate with PayPal button"
-                                />
-                                <img
-                                    alt=""
-                                    border="0"
-                                    src="https://www.paypal.com/en_AR/i/scr/pixel.gif"
-                                    width="1"
-                                    height="1"
-                                />
-                            </form>*/}
                         </div>
                     </div>
                     <h2 className={styles.subtitle}>Demos</h2>
@@ -219,18 +190,12 @@ export default function Home() {
                 <DownloadButton />
             </main>
             <footer className={styles.footer}>
-                <span
-                    style={{
-                        display: "flex",
-                        flexDirection: "row",
-                        justifyContent: "center",
-                        alignItems: "center",
-                    }}>
+                <span className={styles.footerSpan}>
                     <FontAwesomeIcon
                         icon={faCode}
                         className={styles.iconFooter}
                     />
-                    <p>
+                    <p className={styles.footerText}>
                         Developed by{" "}
                         <Link href="https://github.com/TomasGB">
                             <a
