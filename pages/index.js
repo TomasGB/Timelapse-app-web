@@ -196,15 +196,15 @@ export default function Home() {
                         className={styles.iconFooter}
                     />
                     <p className={styles.footerText}>
-                        Developed by{" "}
-                        <Link href="https://github.com/TomasGB">
+                        Developed by <strong>Tomas Gomez Bermudez</strong>
+                        {/*<Link href="https://github.com/TomasGB">
                             <a
                                 style={{ fontWeight: "500" }}
                                 target="_blank"
                                 rel="noopener noreferrer">
                                 Tomas Gomez Bermudez
                             </a>
-                        </Link>
+                    </Link>*/}
                     </p>
                 </span>
             </footer>
