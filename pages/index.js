@@ -117,6 +117,65 @@ export default function Home() {
                             className={styles.icon}
                         />
                     </div>
+                    <h2 className={styles.subtitle}>FAQ</h2>
+                    <div
+                        style={{
+                            display: "flex",
+                            justifyContent: "center",
+                        }}>
+                        <ul
+                            style={{
+                                display: "flex",
+                                flexDirection: "column",
+                                justifyContent: "center",
+                            }}>
+                            <li
+                                style={{
+                                    listStyle: "none",
+                                }}>
+                                <div>
+                                    <p className={styles.question}>
+                                        What processing is applied to the
+                                        photos?
+                                    </p>
+                                    <p className={styles.answer}>
+                                        The processing applied it's Gamma
+                                        Correction and CLAHE (contrast limited
+                                        adaptive histogram equalization).
+                                    </p>
+                                </div>
+                            </li>
+                            <li style={{ listStyle: "none" }}>
+                                <div>
+                                    <p className={styles.question}>
+                                        How does the App interface with cameras?
+                                    </p>
+                                    <p className={styles.answer}>
+                                        The App it's designed to work with
+                                        webcams, so as long as your computer
+                                        recognizes your camera or phone as a
+                                        webcam it should work you only need to
+                                        select the correct capture device
+                                        number.
+                                    </p>
+                                </div>
+                            </li>
+                            <li style={{ listStyle: "none" }}>
+                                <div>
+                                    <p className={styles.question}>
+                                        How do I know my device number?
+                                    </p>
+                                    <p className={styles.answer}>
+                                        The default device number it's '0', if
+                                        you have more than one video capture
+                                        device you might need to change it. Use
+                                        the Preview button to test the device
+                                        number before start.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                     <h2 className={styles.subtitle}>Support the project</h2>
                     <p className={styles.text}>
                         If you like the app and want to help to keep improving

@@ -55,6 +55,25 @@
   margin-bottom: 100px;
   color:#383838;
 }
+.question {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 500;
+  width:100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: -15px;
+  color:#383838;
+}
+.answer{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 120px;
+  color:#383838;
+}
 .image{
   text-align:center;
 }
@@ -198,7 +217,25 @@
   margin-bottom: 80px;
   color:#383838;
 }
-
+.question {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  width:100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: -15px;
+  color:#383838;
+}
+.answer{
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  width:100%;
+  margin-top: 30px;
+  margin-bottom: 45px;
+  color:#383838;
+}
 .image {
   text-align:center;
 }
@@ -302,7 +339,6 @@
   margin-top: 20%;
   font-size: 2rem;
   text-align: center;
-  /*color:#e66801;*/
   color:#000000;
 }
 .description{
@@ -322,6 +358,26 @@
   width:100%;
   margin-top: 30px;
   margin-bottom: 50px;
+  color:#383838;
+}
+.question {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  width:100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: -15px;
+  color:#383838;
+}
+.answer{
+  text-align: justify;
+  font-size: 0.8rem;
+  font-weight: 500;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  margin-left: -15px;
   color:#383838;
 }
 .list {
@@ -418,7 +474,6 @@
   align-items: center;
   Background-color: #f3e8db;
 }
-
 .main {
   padding: 0px;
   width:90%;
@@ -462,6 +517,25 @@
   width:100%;
   margin-top: 50px;
   margin-bottom: 100px;
+  color:#383838;
+}
+.question {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 500;
+  width:100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: -15px;
+  color:#383838;
+}
+.answer{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 120px;
   color:#383838;
 }
 .image{
