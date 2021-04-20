@@ -63,7 +63,7 @@
   margin-top: 30px;
   margin-bottom: 50px;
   margin-left: -15px;
-  color:#383838;
+  color:#000000;
 }
 .answer{
   text-align: center;
@@ -225,7 +225,7 @@
   margin-top: 30px;
   margin-bottom: 50px;
   margin-left: -15px;
-  color:#383838;
+  color:#000000;
 }
 .answer{
   text-align: center;
@@ -368,10 +368,10 @@
   margin-top: 30px;
   margin-bottom: 50px;
   margin-left: -15px;
-  color:#383838;
+  color:#000000;
 }
 .answer{
-  text-align: justify;
+  text-align: center;
   font-size: 0.8rem;
   font-weight: 500;
   width: 100%;
@@ -460,7 +460,7 @@
   margin-right: 10px;
 }
 .footerText{
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 }
 @media (min-width:2561px){
@@ -527,7 +527,7 @@
   margin-top: 30px;
   margin-bottom: 50px;
   margin-left: -15px;
-  color:#383838;
+  color:#000000;
 }
 .answer{
   text-align: center;
